@@ -1,0 +1,24 @@
+{
+    "name": "berat087/luadex_framework",
+    "description": "This framework is built for the foundation of projects by Luadex IT.",
+    "type": "framework",
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "jenssegers/blade": "^1.4",
+      "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Luadex\\": "./"
+        },
+        "files": [
+          "Core/Utility/general.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Berat Yildiz",
+            "email": "berat@luadex.com"
+        }
+    ]
+}
